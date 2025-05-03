@@ -22,8 +22,8 @@
                     <a href="#" class="text-gray-600 hover:text-indigo-600">Categories</a>
                     <a href="#" class="text-gray-600 hover:text-indigo-600">About</a>
                     <a href="#" class="text-gray-600 hover:text-indigo-600">Contact</a>
-                    <a href="#" class="text-gray-600 hover:text-indigo-600">SignUp</a>
-                    <a href="#" class="text-gray-600 hover:text-indigo-600">LogIn</a>
+                    <a href="{{ route('signup') }}" class="text-gray-600 hover:text-indigo-600">Sign Up</a>
+                    <a href="{{ route('login') }}" class="text-gray-600 hover:text-indigo-600">Log In</a>
 
                     <button class="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700">
                         Subscribe

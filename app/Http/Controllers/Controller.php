@@ -9,4 +9,5 @@ abstract class Controller
     {
         return view('homepage');
     }
+  
 }

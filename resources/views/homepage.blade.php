@@ -22,6 +22,9 @@
                     <a href="#" class="text-gray-600 hover:text-indigo-600">Categories</a>
                     <a href="#" class="text-gray-600 hover:text-indigo-600">About</a>
                     <a href="#" class="text-gray-600 hover:text-indigo-600">Contact</a>
+                    <a href="#" class="text-gray-600 hover:text-indigo-600">SignUp</a>
+                    <a href="#" class="text-gray-600 hover:text-indigo-600">LogIn</a>
+
                     <button class="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700">
                         Subscribe
                     </button>

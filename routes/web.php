@@ -1,11 +1,13 @@
 <?php
 
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\ProfileController;
 
 Route::get('/', function () {
     return view('homepage');
 });
-Route::get('/signup',[ProfileController::class, 'signup'])->name('signup');
-Route::get('/login',[ProfileController::class, 'login'])->name('login');
+Route::get('/signup',[UserController::class, 'signup'])->name('signup');
+Route::get('/login',[UserController::class, 'login'])->name('login');
+Route::post('/users', [UserController::class, 'store']);

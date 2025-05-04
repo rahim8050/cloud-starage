@@ -24,7 +24,7 @@
                 </div>
 
                 <!-- Signup Form -->
-                <form method="POST" action="" class="space-y-6">
+                <form method="POST" action="/users" class="space-y-6">
                     @csrf
                     <!-- Full Name -->
                     <div>

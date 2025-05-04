@@ -11,6 +11,14 @@ use Illuminate\Support\Facades\Auth;
 class UserController extends Controller
 {
     //
+    public function signup()
+    {
+        return view('signup');
+    }
+    public function login()
+    {
+        return view('login');
+    }
     public function store(Request $request)
     {
         $formFields = $request->validate([

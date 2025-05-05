@@ -19,7 +19,7 @@ class UserController extends Controller
     {
         return view('login');
     }
-    public function store(Request $request)
+    public function register(Request $request)
     {
         $formFields = $request->validate([
             'name' => ['required','min:3'],

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Landing Page</title>
+    <title>Rahim Landing Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -13,7 +13,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <a href="#" class="text-2xl font-bold text-indigo-600">BlogHub</a>
+                    <a href="#" class="text-2xl font-bold text-indigo-600"> Rahim BlogHub</a>
                 </div>
 
                 <!-- Desktop Menu -->
@@ -118,7 +118,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-                <h3 class="text-lg font-bold mb-4">BlogHub</h3>
+                <h3 class="text-lg font-bold mb-4"> Rahim BlogHub</h3>
                 <p class="text-gray-400">Connecting readers with great content since 2023</p>
             </div>
             <div>
@@ -147,7 +147,7 @@
             </div>
         </div>
         <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 BlogHub. All rights reserved.</p>
+            <p>&copy; 2025 Rahim BlogHub. All rights reserved.</p>
         </div>
     </div>
 </footer>

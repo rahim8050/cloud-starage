@@ -10,6 +10,6 @@ Route::get('/', function () {
 });
 Route::get('/signup',[UserController::class, 'signup'])->name('signup');
 Route::get('/login',[UserController::class, 'login'])->name('login');
-Route::post('/users', [UserController::class, 'store'])->name('register');
+Route::post('/users', [UserController::class, 'register'])->name('register');
 Route::post('/users/authenticate', [UserController::class, 'authenticate']);
 Route::post('/logout', [UserController::class, 'logout'])->middleware('auth')->name('logout');

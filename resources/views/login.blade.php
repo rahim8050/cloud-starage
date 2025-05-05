@@ -24,23 +24,34 @@
                 </div>
 
                 <!-- Login Form -->
-                <form class="space-y-6">
+                <form method="POST" action="/users/authenticate" class="space-y-6">
+                    @csrf
                     <!-- Email -->
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-                        <input type="email" required
+                        <input type="email" required value="{{ old('email') }}" name="email"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
                             placeholder="you@example.com">
+                        @error('email')
+                            <p class="text-red-500 text-xs mt-1">
+                                Please enter a valid email
+                            </p>
+                        @enderror
                     </div>
 
                     <!-- Password -->
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1">Password</label>
                         <div class="relative">
-                            <input type="password" required
+                            <input type="password" required value="{{ old('password') }}" name="password"
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
                                 placeholder="••••••••">
-                        
+                                @error('password')
+                                <p class="text-red-500 text-xs mt-1">
+                                    Please enter a valid password
+                                </p>
+                                @enderror
+
                         </div>
                     </div>
 

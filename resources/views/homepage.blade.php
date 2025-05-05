@@ -21,7 +21,7 @@
                     <a href="#" class="text-gray-600 hover:text-indigo-600">Home</a>
                     <a href="#" class="text-gray-600 hover:text-indigo-600">Categories</a>
                     <a href="#" class="text-gray-600 hover:text-indigo-600">About</a>
-                    <a href="#" class="text-gray-600 hover:text-indigo-600">Contact</a>
+                    <a href="{{ route('contact') }}" class="text-gray-600 hover:text-indigo-600">Contact</a>
 
                     @auth
                         <!-- Display when user is logged in -->

@@ -20,7 +20,7 @@
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#" class="text-gray-600 hover:text-indigo-600">Home</a>
                     <a href="#" class="text-gray-600 hover:text-indigo-600">Categories</a>
-                    <a href="#" class="text-gray-600 hover:text-indigo-600">About</a>
+                    <a href="{{ route ('about') }}" class="text-gray-600 hover:text-indigo-600">About</a>
                     <a href="{{ route('contact') }}" class="text-gray-600 hover:text-indigo-600">Contact</a>
 
                     @auth

@@ -17,30 +17,66 @@
     <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
         <!-- Image 1 -->
         <div class="aspect-square">
-            <img src="twitter.png" alt="Sample image 1"
-                class="w-full h-full object-cover rounded-lg shadow-lg" loading="lazy" width="600" height="600">
-            <p>Twitter</p>
+            <a href="https://twitter.com" class="block">
+                <img src="twitter.png"
+                     alt="Twitter logo"
+                     class="w-full h-full object-cover rounded-lg shadow-lg"
+                     loading="lazy"
+                     width="600"
+                     height="600">
+                <p class="mt-2 text-center hover:text-[#1DA1F2] transition-colors">Twitter</p>
+            </a>
             </div>
 
         <!-- Image 2 -->
         <div class="aspect-square">
-            <img src="facebook.png" alt="Sample image 2"
-                class="w-full h-full object-cover rounded-lg shadow-lg" loading="lazy" width="600" height="600">
-                <p>Facebook</p>
+            <a href="https://facebook.com" class="block">
+                <img src="facebook.png"
+                     alt="Facebook logo"
+                     class="w-full h-full object-cover rounded-lg shadow-lg"
+                     loading="lazy"
+                     width="600"
+                     height="600">
+                <p class="mt-2 text-center hover:text-[#1877F2] transition-colors">Facebook</p>
+            </a>
             </div>
 
         <!-- Image 3 -->
         <div class="aspect-square">
-            <img src="instagram.png" alt="Sample image 3"
-                class="w-full h-full object-cover rounded-lg shadow-lg" loading="lazy" width="600" height="600">
-
+            <a href="https://instagram.com" class="block">
+                <img src="instagram.png"
+                     alt="Instagram logo"
+                     class="w-full h-full object-cover rounded-lg shadow-lg"
+                     loading="lazy"
+                     width="600"
+                     height="600">
+                <p class="mt-2 text-center hover:text-[#E1306C] transition-colors">Instagram</p>
+            </a>
             </div>
 
         <!-- Image 4 -->
         <div class="aspect-square">
-            <img src="pinterest.png" alt="Sample image 4"
-                class="w-full h-full object-cover rounded-lg shadow-lg" loading="lazy" width="600" height="600">
+            <a href="https://pinterest.com" class="block">
+                <img src="pinterest.png"
+                     alt="Pinterest logo"
+                     class="w-full h-full object-cover rounded-lg shadow-lg"
+                     loading="lazy"
+                     width="600"
+                     height="600">
+                <p class="mt-2 text-center hover:text-[#E60023] transition-colors">Pinterest</p>
+            </a>
         </div>
+        <!-- Image 5 -->
+        <div class="aspect-square">
+            <a href="https://linkedin.com" class="block">
+                <img src="linked.png"
+                     alt="LinkedIn logo"
+                     class="w-full h-full object-cover rounded-lg shadow-lg"
+                     loading="lazy"
+                     width="600"
+                     height="600">
+                <p class="mt-2 text-center hover:text-[#0077B5] transition-colors">LinkedIn</p>
+            </a>
     </div>
 </body>
 

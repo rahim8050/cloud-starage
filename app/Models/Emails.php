@@ -9,15 +9,12 @@ class Emails extends Model
 {
     use HasFactory;
 
-   
-    protected $table = 'emails';
+
+
 
 
     protected $fillable = [
         'email'
     ];
 
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
 }

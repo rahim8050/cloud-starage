@@ -1,19 +1,22 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Http\Requests\StoreEmailRequest;
 use App\Models\Emails;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rules\Email;
 
 class EmailController extends Controller
 {
-    public function subscribe(Request $request)
-{
-    // The validated data is already available
-    $validated = $request->validated();
+    public function subscribe(Request $request){
+        $incomingFields = $request->validate([
+            "email"=> "required",
 
-    Emails::create($validated);
+            ]);
 
-    return redirect()->route('about')->with('message', 'Email added successfully');
-}
+            $incomingFields['email'] = filter_var($incomingFields['email'], FILTER_SANITIZE_EMAIL);
+
+            Emails::create($incomingFields);
+            return redirect('about')->with('message', 'Email subscribed successfully');
+            }
 }

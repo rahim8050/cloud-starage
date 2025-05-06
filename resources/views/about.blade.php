@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Our Blog | Mindful Scribbles</title>
+    <title>About Our Blog | Rahim Blog </title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50">
@@ -12,7 +12,7 @@
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center py-4">
                 <a href="/" class="flex items-center">
-                    <span class="text-2xl font-bold text-indigo-600">Mindful Scribbles</span>
+                    <span class="text-2xl font-bold text-indigo-600">Rahim Blog</span>
                 </a>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="/" class="text-gray-600 hover:text-indigo-600 transition">Home</a>
@@ -88,6 +88,7 @@
                 Get weekly updates with our latest articles and exclusive content straight to your inbox.
             </p>
             <form method="POST" action="/subscribe" class="max-w-md mx-auto flex gap-4">
+                @csrf
                 <input type="email" placeholder="Enter your email"
                        class="flex-1 px-4 py-3 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                 <button type="submit"
@@ -101,7 +102,7 @@
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-8">
         <div class="max-w-6xl mx-auto px-4 text-center">
-            <p>&copy; 2023 Mindful Scribbles. All rights reserved.</p>
+            <p>&copy; 2025 Rahim Blog. All rights reserved.</p>
         </div>
     </footer>
 </body>

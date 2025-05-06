@@ -89,7 +89,7 @@
             </p>
             <form method="POST" action="/subscribe" class="max-w-md mx-auto flex gap-4">
                 @csrf
-                <input type="email" placeholder="Enter your email"
+                <input type="email" name="email" placeholder="Enter your email"
                        class="flex-1 px-4 py-3 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                 <button type="submit"
                         class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">

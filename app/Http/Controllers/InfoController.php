@@ -19,4 +19,5 @@ class InfoController extends Controller
     {
         return view('services');
     }
+  
 }

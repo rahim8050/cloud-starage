@@ -87,7 +87,7 @@
             <p class="text-gray-300 mb-8 max-w-xl mx-auto">
                 Get weekly updates with our latest articles and exclusive content straight to your inbox.
             </p>
-            <form class="max-w-md mx-auto flex gap-4">
+            <form method="POST" action="/subscribe" class="max-w-md mx-auto flex gap-4">
                 <input type="email" placeholder="Enter your email"
                        class="flex-1 px-4 py-3 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                 <button type="submit"

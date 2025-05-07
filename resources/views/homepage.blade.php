@@ -129,7 +129,7 @@
                 </div>
             </div>
 
-            <!-- Repeat similar post cards (2 more) -->
+            
         </div>
     </div>
 

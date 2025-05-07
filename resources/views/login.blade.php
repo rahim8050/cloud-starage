@@ -46,11 +46,11 @@
                             <input type="password" required value="{{ old('password') }}" name="password"
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
                                 placeholder="••••••••">
-                                @error('password')
+                            @error('password')
                                 <p class="text-red-500 text-xs mt-1">
                                     Please enter a valid password
                                 </p>
-                                @enderror
+                            @enderror
 
                         </div>
                     </div>

@@ -129,7 +129,7 @@
                 </div>
             </div>
 
-            
+
         </div>
     </div>
 
@@ -141,7 +141,7 @@
                 Get weekly updates about new articles, tutorials, and exclusive content straight to your inbox.
             </p>
             <div class="max-w-md mx-auto flex gap-4">
-                <form  method="POST" action="/subscribe" class="flex gap-4">
+                <form method="POST" action="/subscribe" class="flex gap-4">
                     @csrf
                     <input name="email" type="email" placeholder="Enter your email"
                         class="flex-1 px-6 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-400">
